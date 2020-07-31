@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;0,900;1,100;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://image.flaticon.com/icons/svg/140/140276.svg"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img
+          src="https://image.flaticon.com/icons/svg/140/140276.svg"
+          alt="The Keyboard Store Logo"
+          id="header-logo"
+        />
+        <h2 id="logo-name">The Keyboard Store</h2>
+      </div>
+
+      <nav class="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="#about">About Us</a></li>
+          <li class="nav-link"><a href="#products">Products</a></li>
+          <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="modalOuter">
+      <div class="modalInner"></div>
+    </div>
+
+    <section id="about">
+      <h2>Who are we?</h2>
+      <p>
+        The Keyboard Store is a an Argentina-based musical instruments retailer
+        that follows one main objective: to bring you the best quality, top
+        notch keyboards/synthesizers in the market. That's it. We work with some
+        of the worlds best keyboard manufacturers such as
+        <a href="https://www.nordkeyboards.com/" style="color: red;">Nord</a>,
+        <a href="https://www.korg.com/ar/" style="color: black;">Korg</a> or
+        <a href="https://usa.yamaha.com" style="color: #48217a;">Yamaha</a>.
+        Feel free to navigate through our site and pick the one that suits you
+        best!
+      </p>
+    </section>
+
+    <section id="products">
+      <h2>Our Products</h2>
+      <div id="productCards">
+        <div
+          class="card"
+          data-description="The Nord Stage 3 features a wide selection of Grands, Uprights,
+        Electric Pianos, Digital Pianos, Clavinet and Harpsichord from our
+        exclusive Nord Piano Library - all handpicked for their unique
+        characters! The Nord Stage 3 Piano section also features a brand
+        new 'Layer' category with rich dynamic layered patches."
+        >
+          <img
+            src="https://http2.mlstatic.com/libreria-kontakt-nord-stage-3-ultimate-stage-pianos-D_NQ_NP_797691-MLA28032115210_082018-F.jpg"
+            alt="Nord Stage 3 photo"
+          />
+          <h3>Nord Stage 3</h3>
+        </div>
+        <div
+          class="card"
+          data-description="The Korg Kross synth workstation has been a huge hit. Now the
+        Kross 2 raises the bar with more power, more presets (1075), more
+        polyphony (120 voices), a new sampling engine, sample trigger
+        pads, and more."
+        >
+          <img
+            src="https://cdn.korg.com/es/products/upload/3f66c46ef3978ae2e1cb005bf45d64c9.jpg"
+            alt="Korg Kross 2 photo"
+          />
+          <h3>Korg Kross 2</h3>
+        </div>
+        <div
+          class="card"
+          data-description="The Yamaha YC61 packs all the character of vintage combo organs
+        and more into a gig-friendly, compact 61-key stage piano. Using
+        Yamaha’s proprietary Virtual Circuit Modeling, the YC61 is one of
+        the most lifelike sounding analog organ emulations on the market,
+        and it comes stocked with a great selection of additional
+        instrument voices and killer onboard effects."
+        >
+          <img
+            src="https://i.ytimg.com/vi/qim8unJrPCI/maxresdefault.jpg"
+            alt="Yamaha YC61 photo"
+          />
+          <h3>Yamaha YC61</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-layout">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.572728370293!2d-97.42141488559471!3d27.73047563108346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86685ff4601cba4b%3A0xdff94ee65b1e73c8!2sLorem%20ipsum!5e0!3m2!1ses!2sar!4v1593553486618!5m2!1ses!2sar"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+        <div class="contact-info">
+          <h1>Address</h1>
+          <p>Lorem Ipsum 123, Buenos Aires, Argentina</p>
+          <br /><br />
+          <h1>Phone</h1>
+          <p>(+54) 11 3422 1433</p>
+          <br /><br />
+          <h1>Mail</h1>
+          <p>thekeyboard@store.com</p>
+        </div>
+      </div>
+    </section>
+    <div class="gradient-background"></div>
+    <div class="suscribe-section">
+      <h1>Suscribe to receive our latest offers!</h1>
+      <br />
+      <form action="#" class="form">
+        <input
+          type="text"
+          placeholder=" e.g. johndoe@example.com"
+          class="suscribe-input"
+        />
+        <input type="submit" class="suscribe-button" value="Suscribe!" />
+      </form>
+      <p class="validationMessage"></p>
+    </div>
+    <footer>
+      <p>
+        Made with <span>♥</span> by
+        <a target="about:_blank" href="https://github.com/Fedebornaz"
+          >Federico Bornaz</a
+        >
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
